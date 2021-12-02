@@ -3,7 +3,7 @@ application = Flask(__name__)
 
 @application.route("/")
 def index():
-    return "Your Flask App Works from TC!"
+    return "Your Flask App Works from TCv2!"
 
 @application.route("/hello")
 def hello():
